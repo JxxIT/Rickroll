@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Absoluut geen Rickroll",
+  "description": "Zeker niet.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["rickroll.js"]
+    }
+  ]
+}
